@@ -6,7 +6,14 @@ import com.app.springbootrestapi.entity.Customer;
 
 public interface CustomerService {
 
-	//Customer saveCustomer(Customer customer);
+	List<Customer> getAllCustomerList();
 	
-	List<Customer> getAllCustomer();
+	Customer getCustomerById(int customerId);
+	
+	Customer createOrUpdateCustomer(Customer customer);
+	
+	void deleteCustomer(int customerId);	
+	
+	
+	
 }
