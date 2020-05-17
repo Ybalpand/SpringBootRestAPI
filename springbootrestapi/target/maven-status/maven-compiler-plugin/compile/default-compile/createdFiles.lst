@@ -1,6 +1,10 @@
 com\app\springbootrestapi\dao\CustomerDAO.class
 com\app\springbootrestapi\entity\Customer.class
+com\app\springbootrestapi\dao\DocumentDAO.class
+com\app\springbootrestapi\exception\CustomerNotFoundException.class
 com\app\springbootrestapi\SpringBootApplications.class
+com\app\springbootrestapi\entity\Gender.class
 com\app\springbootrestapi\controller\CustomerController.class
 com\app\springbootrestapi\service\CustomerService.class
 com\app\springbootrestapi\service\CustomerServiceImpl.class
+com\app\springbootrestapi\entity\Document.class
